@@ -57,5 +57,3 @@ macro_rules! quickcheck_triangle_checked {
         quickcheck::quickcheck(test as fn($point, $point, $point) -> TestResult);
     }};
 }
-
-fn main() {}
